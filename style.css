@@ -156,10 +156,17 @@
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
+    margin-bottom: 30px;
     position: relative;
     min-height: 500px;
+    transition: all .5s;
 }
 
+
+.menuCard:hover {
+    transform: scale(1.05);
+}
+ 
 .menuImg {
     position: relative;
 }
@@ -268,6 +275,12 @@
     transition: .5s;
     transform: translatey(20px);
     opacity: 0;
+}
+
+.cardContent button:hover {
+    background-color: white;
+    color: #f39c12;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .menuCard:hover .cardContent button {
